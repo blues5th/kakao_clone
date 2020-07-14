@@ -1,3 +1,7 @@
+.chat_list{
+  margin-top: 50px;
+}
+
 .chat_list .chat {
   display: flex;
   align-items: center;

@@ -1,3 +1,6 @@
+.user-me.user{
+  margin-top: 50px;
+}
 .user .user__desc .status-text {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;

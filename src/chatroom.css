@@ -1,7 +1,7 @@
 .header.chat-room-header {
-  position: relative;
+  position: fixed;
   justify-content: center;
-  margin: 10px 0px;
+  height: 60px;
 }
 .header a {
   position: absolute;
@@ -10,6 +10,9 @@
 .header .header__icons {
   position: absolute;
   right: 20px;
+}
+.chat-room{
+  margin-top: 50px;
 }
 .chat-room .incoming {
   display: flex;
