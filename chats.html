@@ -3,6 +3,7 @@
   <head>
     <title>Kokoa</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
@@ -16,85 +17,69 @@
     />
   </head>
   <body>
-    <div class="iphone">
-      <!-- iphone frame -->
-      <header class="iphone-head">
-        <div class="iphonehead-head__clock">12:00</div>
-        <div class="iphone-head__frame">
-          <div class="iphone-head__frame__speaker"></div>
-          <div class="iphone-head__frame__camera"></div>
-        </div>
-        <div class="iphone-head__status_bar">
-          <i class="fas fa-signal"></i>
-          <i class="fas fa-wifi"></i>
-          <i class="fas fa-battery-full"></i>
-        </div>
-      </header>
-      <!-- iphone frame -->
+    <!-- header -->
+    <header class="header">
+      <div class="header_title">Chats</div>
+      <div class="header__icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-comment-medical"></i>
+        <i class="fas fa-music"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+    </header>
+    <!-- header -->
 
-      <!-- header -->
-      <header class="header">
-        <div class="header_title">Chats</div>
-        <div class="header__icons">
-          <i class="fas fa-search"></i>
-          <i class="fas fa-comment-medical"></i>
-          <i class="fas fa-music"></i>
-          <i class="fas fa-cog"></i>
-        </div>
-      </header>
-      <!-- header -->
-
-      <!-- main screen -->
-      <main class="main-screen">
-        <ul class="chat_list">
-          <li class="user-friend chat">
-            <div class="chat__summary">
-              <img class="avartar-friend avartar" src="./images/avatar3.png" />
-              <a href="./chatroom.html">
-                <div class="chat__preview">
-                  <div class="chat__user-name">julia</div>
-                  <div class="chat__message">si buenas noches</div>
-                  <div class="chat__message lastest">😄good night</div>
+    <!-- main screen -->
+    <main class="main-screen">
+      <ul class="chat_list">
+        <li class="user-friend chat">
+          <div class="chat__summary">
+            <img class="avartar-friend avartar" src="./images/avatar3.png" />
+            <a href="./chatroom.html">
+              <div class="chat__preview">
+                <div class="chat__user-name">
+                  julia
+                  <div class="new-icon">N</div>
                 </div>
-              </a>
-            </div>
-            <div class="new-icon">N</div>
-            <div class="time-stamp">Jul 12</div>
-          </li>
-        </ul>
-      </main>
-      <!-- main screen -->
+                <div class="chat__message">si buenas noches</div>
+                <div class="chat__message lastest">😄good night</div>
+              </div>
+            </a>
+          </div>
+          <div class="time-stamp">Jul 12</div>
+        </li>
+      </ul>
+    </main>
+    <!-- main screen -->
 
-      <!-- nav -->
-      <nav class="tab">
-        <ul class="tab__menu-list">
-          <li class="menu-icon">
-            <a href="./index.html">
-              <i class="fas fa-user"></i>
-            </a>
-          </li>
-          <li class="menu-icon active notify">
-            <a href="./chats.html">
-              <i class="fas fa-comment">
-                <div class="notify-icon"></div>
-              </i>
-            </a>
-          </li>
-          <li class="menu-icon">
-            <a href="./calls.html">
-              <i class="fas fa-phone"></i>
-            </a>
-          </li>
-          <li class="menu-icon">
-            <a href="./setting.html">
-              <i class="fas fa-ellipsis-h"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <!-- nav -->
-      <div class="iphone__indicator"></div>
-    </div>
+    <!-- nav -->
+    <nav class="tab">
+      <ul class="tab__menu-list">
+        <li class="menu-icon">
+          <a href="./index.html">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="menu-icon active notify">
+          <a href="./chats.html">
+            <i class="fas fa-comment">
+              <div class="notify-icon"></div>
+            </i>
+          </a>
+        </li>
+        <li class="menu-icon">
+          <a href="./calls.html">
+            <i class="fas fa-phone"></i>
+          </a>
+        </li>
+        <li class="menu-icon">
+          <a href="./setting.html">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- nav -->
     <div class="screen-warning">스크린 사이즈를 최소로 줄이세요</div>
   </body>
 </html>

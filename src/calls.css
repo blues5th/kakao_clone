@@ -1,3 +1,7 @@
+.header.call-header {
+  color: white;
+}
+
 .user-friend.call {
   display: flex;
   flex-direction: row;

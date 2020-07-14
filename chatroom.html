@@ -3,6 +3,7 @@
   <head>
     <title>Kokoa</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
@@ -16,92 +17,74 @@
     />
   </head>
   <body>
-    <div class="iphone">
-      <!-- iphone frame -->
-      <header class="iphone-head">
-        <div class="iphonehead-head__clock">12:00</div>
-        <div class="iphone-head__frame">
-          <div class="iphone-head__frame__speaker"></div>
-          <div class="iphone-head__frame__camera"></div>
-        </div>
-        <div class="iphone-head__status_bar">
-          <i class="fas fa-signal"></i>
-          <i class="fas fa-wifi"></i>
-          <i class="fas fa-battery-full"></i>
-        </div>
-      </header>
-      <!-- iphone frame -->
+    <!-- header -->
+    <header class="header chat-room-header">
+      <a href="./chats.html">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <div class="header_title">julia</div>
+      <div class="header__icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <!-- header -->
 
-      <!-- header -->
-      <header class="header chat-room-header">
-        <a href="./chats.html">
-          <i class="fas fa-chevron-left"></i>
-        </a>
-        <div class="header_title">julia</div>
-        <div class="header__icons">
-          <i class="fas fa-search"></i>
-          <i class="fas fa-bars"></i>
+    <!-- main screen -->
+    <main class="main-screen">
+      <section class="chat-room">
+        <div class="incoming">
+          <div class="incoming__user">
+            <img class="incoming__avartar" src="./images/avatar3.png" />
+            <span class="incoming__name">julia</span>
+          </div>
+          <div class="incoming__message">
+            <span class="message">😻😻😻</span>
+            <div class="time-stamp">16:21</div>
+          </div>
         </div>
-      </header>
-      <!-- header -->
-
-      <!-- main screen -->
-      <main class="main-screen">
-        <section class="chat-room">
-          <div class="incoming">
-            <div class="incoming__user">
-              <img class="incoming__avartar" src="./images/avatar3.png" />
-              <span class="incoming__name">julia</span>
-            </div>
-            <div class="incoming__message">
-              <span class="message">😻😻😻</span>
-              <div class="time-stamp">16:21</div>
-            </div>
-          </div>
-          <div class="send__message">
-            <div class="time-stamp">16:22</div>
-            <span class="message">great!</span>
-          </div>
-          <div class="incoming">
-            <div class="incoming__user">
-              <img class="incoming__avartar" src="./images/avatar3.png" />
-              <span class="incoming__name">julia</span>
-            </div>
-            <div class="incoming__message">
-              <span class="message">see you there!!</span>
-              <div class="time-stamp">18:09</div>
-            </div>
-          </div>
-          <div class="send__message">
-            <div class="time-stamp">22:50</div>
-            <span class="message">si buenas noches</span>
-          </div>
-          <div class="incoming">
-            <div class="incoming__user">
-              <img class="incoming__avartar" src="./images/avatar3.png" />
-              <span class="incoming__name">julia</span>
-            </div>
-            <div class="incoming__message">
-              <span class="message">😄good night</span>
-              <div class="time-stamp">22:59</div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <!-- main screen -->
-
-      <!-- nav -->
-      <nav class="message-input">
-        <i class="far fa-plus-square"></i>
-        <div class="input-field">
-          <input type="text" />
-          <i class="far fa-smile"></i>
+        <div class="send__message">
+          <div class="time-stamp">16:22</div>
+          <span class="message">great!</span>
         </div>
-        <i class="fas fa-phone-alt"></i>
-      </nav>
-      <!-- nav -->
-      <div class="iphone__indicator"></div>
-    </div>
+        <div class="incoming">
+          <div class="incoming__user">
+            <img class="incoming__avartar" src="./images/avatar3.png" />
+            <span class="incoming__name">julia</span>
+          </div>
+          <div class="incoming__message">
+            <span class="message">see you there!!</span>
+            <div class="time-stamp">18:09</div>
+          </div>
+        </div>
+        <div class="send__message">
+          <div class="time-stamp">22:50</div>
+          <span class="message">si buenas noches</span>
+        </div>
+        <div class="incoming">
+          <div class="incoming__user">
+            <img class="incoming__avartar" src="./images/avatar3.png" />
+            <span class="incoming__name">julia</span>
+          </div>
+          <div class="incoming__message">
+            <span class="message">😄good night</span>
+            <div class="time-stamp">22:59</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main screen -->
+
+    <!-- nav -->
+    <nav class="message-input">
+      <i class="far fa-plus-square"></i>
+      <div class="input-field">
+        <input type="text" />
+        <i class="far fa-smile"></i>
+      </div>
+      <i class="fas fa-phone-alt"></i>
+    </nav>
+    <!-- nav -->
     <div class="screen-warning">스크린 사이즈를 최소로 줄이세요</div>
   </body>
 </html>

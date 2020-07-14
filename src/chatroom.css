@@ -1,6 +1,7 @@
 .header.chat-room-header {
   position: relative;
   justify-content: center;
+  margin: 10px 0px;
 }
 .header a {
   position: absolute;
@@ -136,6 +137,7 @@
   background-color: rgba(255, 255, 255, 0.07);
   overflow: hidden;
   border-radius: 0 0 40px 40px;
+  color: white;
 }
 
 .message-input .input-field {
