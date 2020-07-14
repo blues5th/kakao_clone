@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="iphone">
+      <!-- iphone frame -->
+      <header class="iphone-head">
+        <div class="iphonehead-head__clock">12:00</div>
+        <div class="iphone-head__frame">
+          <div class="iphone-head__frame__speaker"></div>
+          <div class="iphone-head__frame__camera"></div>
+        </div>
+        <div class="iphone-head__status_bar">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </header>
+      <!-- iphone frame -->
+
+      <!-- header -->
+      <header class="header">
+        <div class="header_title">Friends</div>
+        <div class="header__icons">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-user-plus"></i>
+          <i class="fas fa-music"></i>
+          <i class="fas fa-cog"></i>
+        </div>
+      </header>
+      <!-- header -->
+
+      <!-- main screen -->
+      <main class="main-screen">
+        <section class="user-me user">
+          <img class="avartar-me avartar" src="./images/avatar.png" />
+          <span class="user__name">carlos</span>
+        </section>
+        <div class="section-label">Friends 31</div>
+        <ul class="user_list">
+          <li class="user-friend user">
+            <img class="avartar-friend avartar" src="./images/avatar2.png" />
+            <div class="user__desc">
+              <span>Gabriella</span>
+              <span class="status-text">feliz cumpleanos</span>
+            </div>
+          </li>
+          <li class="user-friend user">
+            <img class="avartar-friend avartar" src="./images/avatar3.png" />
+            <div class="user__desc">
+              <span>julia</span>
+              <span class="status-text">quiero comprar un carro</span>
+            </div>
+          </li>
+          <li class="user-friend user">
+            <img class="avartar-friend avartar" src="./images/avatar4.png" />
+            <div class="user__desc">
+              <span>chris</span>
+              <span class="status-text">I'm working...</span>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <!-- main screen -->
+
+      <!-- nav -->
+      <nav class="tab">
+        <ul class="tab__menu-list">
+          <li class="menu-icon active">
+            <a href="./index.html">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+          <li class="menu-icon">
+            <a href="./chats.html">
+              <i class="fas fa-comment"></i>
+            </a>
+          </li>
+          <li class="menu-icon">
+            <a href="./calls.html">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
+          <li class="menu-icon">
+            <a href="./setting.html">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- nav -->
+      <div class="iphone__indicator"></div>
+    </div>
+    <div class="screen-warning">스크린 사이즈를 최소로 줄이세요</div>
+  </body>
+</html>

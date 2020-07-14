@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header.chat-room-header,
+.header.call-header {
+  justify-content: space-between;
+}
+.header .header_title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header .header__icons i {
+  margin-left: 10px;
+}

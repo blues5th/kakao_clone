@@ -1,0 +1,77 @@
+@import "./iphoneFrame.css";
+@import "./reset.css";
+@import "./nav.css";
+@import "./header.css";
+@import "./friends.css";
+@import "./chats.css";
+@import "./calls.css";
+@import "./setting.css";
+@import "./chatroom.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #f9e031;
+}
+* {
+  box-sizing: border-box;
+  cursor: default;
+}
+
+div,
+a {
+  color: white;
+  color: white;
+  text-decoration: none;
+}
+button,
+i {
+  cursor: pointer;
+}
+i {
+  font-size: 22px;
+}
+.main-screen {
+  padding: 20px;
+}
+.avartar {
+  border-radius: 35%;
+  margin-right: 15px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user .user__name {
+  font-size: 22px;
+}
+.user .user__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.avartar-friend.avartar {
+  width: 45px;
+}
+
+.screen-warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110vh;
+  background-color: #f9e031;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (min-width: 501px) {
+  .screen-warning {
+    display: flex;
+  }
+}

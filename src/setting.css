@@ -1,0 +1,50 @@
+.user-me.user {
+  position: relative;
+}
+.user .user__email {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.user-me.user i {
+  position: absolute;
+  right: 5px;
+}
+.menu-list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-list .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 80px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.menu-list .menu i {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.menu-list .menu span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.services__label {
+  font-size: 14px;
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu-list.suggestions i {
+  background-color: #f9e031;
+  border-radius: 10px;
+  color: #3b1c1c;
+}
