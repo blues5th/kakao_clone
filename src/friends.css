@@ -1,5 +1,6 @@
-.user-me.user{
+.user-me.user {
   margin-top: 50px;
+  color: white;
 }
 .user .user__desc .status-text {
   color: rgba(255, 255, 255, 0.5);
