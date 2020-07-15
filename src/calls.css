@@ -2,7 +2,7 @@
   color: white;
 }
 
-.call_list{
+.call_list {
   margin-top: 50px;
 }
 .user-friend.call {
@@ -52,5 +52,6 @@
 
 .user-friend.call i {
   position: absolute;
+  color: white;
   right: 0;
 }

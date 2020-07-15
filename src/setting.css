@@ -13,6 +13,7 @@
 .menu-list {
   margin-top: 30px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   min-height: 100%;
 }
